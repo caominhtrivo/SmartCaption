@@ -37,7 +37,7 @@ def get_answer_from_ai(question):
         url = "https://api-inference.huggingface.co/models/deepset/roberta-base-squad2"
         # Authentication header with the user's Hugging Face API key
         headers = {
-            "Authorization": "Bearer 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"  # User's token
+            "Authorization": "Bearer YOUR-API"  # User's token
         }
         # Expanded context with more detailed information
         context = (
